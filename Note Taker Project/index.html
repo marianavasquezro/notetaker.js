@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Note Taker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Colorful Note Taker</h1>
+        <div class="note-form">
+            <textarea id="noteText" placeholder="Enter your note"></textarea>
+            <label for="textColor">Text Color:</label>
+            <input type="color" id="textColor" value="#333">
+            <label for="bgColor">Background Color:</label>
+            <input type="color" id="bgColor" value="#ffffff">
+            <button onclick="addNote()">Add Note</button>
+        </div>
+        <ul id="note-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
